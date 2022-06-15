@@ -19,9 +19,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-hb#le^h^nhsx+uf)ev6@96io7&@!6y!a@h5rt&e+w4cxm2@$a('
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -133,8 +130,4 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 # EMAIL:
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = "raphaelaraujotoc@gmail.com"
-EMAIL_HOST_PASSWORD = 'mjoiexhvawebiaxc'
